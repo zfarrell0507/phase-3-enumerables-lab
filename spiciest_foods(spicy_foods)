@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/zfarrell0507/Development/code/phase-3/phase-3-enumerables-lab/enumerables.rb:27 :
+
+    [1;34m22[0m: [1;34m# given an array of spicy foods, **return an array of hashes** [0m
+    [1;34m23[0m: [1;34m# where the heat level of the food is greater than 5[0m
+    [1;34m24[0m: [32mdef[0m [1;34mspiciest_foods[0m(spicy_foods)
+    [1;34m25[0m:   spicy_foods.filter { |food| food[[33m:heatlevel[0m] > [1;34m5[0m}
+    [1;34m26[0m: [32mend[0m
+ => [1;34m27[0m: binding.pry
+    [1;34m28[0m: [1;34m# given an array of spicy foods, **output to the terminal**[0m
+    [1;34m29[0m: [1;34m# each spicy food in the following format: [0m
+    [1;34m30[0m: [1;34m# Buffalo Wings (American) | Heat Level: 🌶🌶🌶[0m
+    [1;34m31[0m: [1;34m# HINT: you can use * with a string to produce the correct number of 🌶 emoji. [0m
+    [1;34m32[0m: [1;34m# "hello" * 3 == "hellohellohello"[0m
+
